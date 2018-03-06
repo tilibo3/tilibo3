@@ -10,13 +10,14 @@
 
 3. www.dmedia.zju.edu.cn/video/vWork.html: ZJU digital media major excellent works exhibition website  
 
-![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/dmeida-work1-screenshot.png)
-![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/dmeida-work2-screenshot.png)
+![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/dmedia-work1-screenshot.png)
+![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/dmedia-work2-screenshot.png)
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/dmeida-work3-screenshot.png)  
 
 4. CKCEST front-end web standard  
 
-![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/ckcest-screenshot1.png)
+![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/ckcest-screenshot1.png)  
+
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/ckcest-screenshot2.png)  
 
 ## game development
