@@ -21,7 +21,11 @@
 
 ## game development
 1. *The Forbidden City Go*: a AR mobile game
-> Won *Tencent Next Idea Game Design Competition - Excellent Prize*
+> Won *Tencent Next Idea Game Design Competition - Excellent Prize*  
+
+![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/the-forbidden-city-go.png)  
+
 2. *Fairy Tale*: a VR mobile game
-> Won *China Graduate Contest on Application, Design and Innovation of Mobile-Terminal - Third Prize*
+> Won *China Graduate Contest on Application, Design and Innovation of Mobile-Terminal - Third Prize*  
+
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/fairy-tale.png)  
