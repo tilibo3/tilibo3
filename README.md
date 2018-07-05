@@ -3,7 +3,7 @@
 1. www.tilibo3.com (http://www.tilibo3.com)
 > front-end web development blog website using **node.js**, **angular** and **mongodb**.
 
-2. *[practise]* A To-Do-List Practise
+2. *[practise]* A To-Do-List Web Application
 > using **react(redux)**, **less** and **webpack**.
 
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/addtodo-app/show.jpg)
