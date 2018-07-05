@@ -1,12 +1,12 @@
 # tilibo
 ## front-end web development
-1. www.tilibo3.com (http://www.tilibo3.com)
+- 1. www.tilibo3.com (http://www.tilibo3.com)
 > front-end web development blog website using node.js, angular and mongodb.
 
-1.1 A To-Do-List Practise using react(redux) + less + webpack
+   - 1.1 A To-Do-List Practise using react(redux) + less + webpack
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/addtodo-app/show.jpg)
 
-1.2 A Looking-Test Single Page Web using html + bootstrap
+   - 1.2 A Looking-Test Single Page Web using html + bootstrap
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/lookingtest-app/show.jpg)
 
 2. www.dmedia.zju.edu.cn/video
