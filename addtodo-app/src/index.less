@@ -1,0 +1,111 @@
+@bg-color: rgb(80, 80, 80);
+@main-color: rgb(75, 207, 75);
+@white: #fff;
+
+@container-mt: 240px;
+@container-sw: 480px;
+@container-mw: 702px;
+@container-lw: 860px;
+
+@input-h: 42px;
+@input-pl: 25px;
+@button-ml: 34px;
+@button-pl: 15px;
+@area-margin: 25px;
+@li-mb: 12px;
+@li-pl: 12px;
+
+@normal-fs: 22px;
+@small-fs: @normal-fs - 6px;
+@big-fs: @normal-fs + 4px;
+
+@min768: ~"(min-width: 768px)";
+@min992: ~"(min-width: 992px)";
+
+#rounded {
+  outline: none;
+  border: none;
+  border-radius: 32px 0 32px 0;
+}
+
+body {
+  background-color: @bg-color;
+  font-size: @normal-fs;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: @container-sw;
+  @media @min768 {
+    width: @container-mw;
+  }
+  @media @min992 {
+    width: @container-lw;
+  }
+  margin: @container-mt auto;
+}
+
+.addtodo-area {
+  flex: 1;
+  form {
+    display: flex;
+    flex-directions: row;
+    input[type="text"] {
+      height: @input-h;
+      #rounded();
+      flex: 3.6;
+      font-size: @normal-fs;
+      padding-left: @input-pl;
+    }
+    button {
+      background-color: @main-color;
+      height: @input-h;
+      #rounded();
+      position: relative;
+      flex: 1;
+      margin-left: @button-ml - 14px;
+      @media @min768 {
+        margin-left: @button-ml;
+      }
+      &:after {
+        display: block;
+        color: @white;
+        font-size: @big-fs;
+        content: "Add";
+        @media @min768 {
+          content: "Add Todo";
+        }
+      }
+    }
+  }
+}
+
+.filter-area {
+  flex: 1;
+  margin-top: @area-margin;
+  margin-bottom: @area-margin * 1.2;
+  span {
+    font-size: @small-fs;
+    color: darken(@main-color, 20%);
+  }
+  button {
+    height: @small-fs + 4px;
+    margin-left: @button-ml - 20px;
+    padding: 0 @button-pl;
+    #rounded();
+    &:disabled {
+      background-color: darken(@main-color, 20%);
+      color: @white;
+    }
+  }
+}
+
+.list-area {
+  flex: 1;
+  li {
+    color: @white;
+    margin-bottom: @li-mb;
+    padding-left: @li-pl;
+  }
+}

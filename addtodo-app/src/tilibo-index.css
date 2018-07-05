@@ -1,0 +1,96 @@
+#rounded {
+  outline: none;
+  border: none;
+  border-radius: 32px 0 32px 0;
+}
+body {
+  background-color: #505050;
+  font-size: 22px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin: 240px auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 702px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 860px;
+  }
+}
+.addtodo-area {
+  flex: 1;
+}
+.addtodo-area form {
+  display: flex;
+  flex-directions: row;
+}
+.addtodo-area form input[type="text"] {
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 32px 0 32px 0;
+  flex: 3.6;
+  font-size: 22px;
+  padding-left: 25px;
+}
+.addtodo-area form button {
+  background-color: #4bcf4b;
+  height: 42px;
+  outline: none;
+  border: none;
+  border-radius: 32px 0 32px 0;
+  position: relative;
+  flex: 1;
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  .addtodo-area form button {
+    margin-left: 34px;
+  }
+}
+.addtodo-area form button:after {
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  content: "Add";
+}
+@media (min-width: 768px) {
+  .addtodo-area form button:after {
+    content: "Add Todo";
+  }
+}
+.filter-area {
+  flex: 1;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.filter-area span {
+  font-size: 16px;
+  color: #268e26;
+}
+.filter-area button {
+  height: 20px;
+  margin-left: 14px;
+  padding: 0 15px;
+  outline: none;
+  border: none;
+  border-radius: 32px 0 32px 0;
+}
+.filter-area button:disabled {
+  background-color: #268e26;
+  color: #fff;
+}
+.list-area {
+  flex: 1;
+}
+.list-area li {
+  color: #fff;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
