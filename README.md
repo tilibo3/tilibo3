@@ -3,15 +3,15 @@
 1. www.tilibo3.com (http://www.tilibo3.com)
 > front-end web development blog website using **node.js**, **angular** and **mongodb**.
 
-2. *Recent* A To-Do-List Practise
+2. *[practise]* A To-Do-List Practise
 > using **react(redux)**, **less** and **webpack**.
 
 ![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/addtodo-app/show.jpg)
 
-3. *Recent* A Looking-Test Single Page Web
+3. *[practise]* A Looking-Test Single Page Web
 > using **bootstrap**
 
-![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/lookingtest-app/show.jpg)
+![](https://raw.githubusercontent.com/tilibo3/tilibo3/master/lookingtest-app/show.png)
 
 3. www.dmedia.zju.edu.cn/video/vWork.html
 > ZJU digital media major graduation works show using **jquery** and **json**.(ZJU Host-based Access)
