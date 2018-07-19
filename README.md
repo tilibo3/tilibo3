@@ -1,7 +1,10 @@
 # tilibo
 ## front-end web development
 1. www.tilibo3.com (http://www.tilibo3.com)
-> That is a full-stack website built with **Node+Express+Angular+Mongodb**. It is an individual project using MVC framework. It realizes classified browsing, searching, user registration, user comment and other functions. The performance of the website is optimized, including: using gulp to merge and compress scripts, using Sprite diagrams to merge pictures, using express middleware to set caching time and to compress response.
+> That is a full-stack website built with **Node+Express+Angular+Mongodb**.<br>
+It is an individual project using MVC framework.<br>
+It realizes classified browsing, searching, user registration, user comment and other functions.<br>
+The performance of the website is optimized, including: using gulp to merge and compress scripts, using Sprite diagrams to merge pictures, using express middleware to set caching time and to compress response.
 
 2. *[practise]* A To-Do-List Web Application
 > using **react(redux)**, **less** and **webpack**.
