@@ -6,4 +6,4 @@ It performs three tasks.<br>
 - Filter completed or active activites
 
 It is responsible to different sizes of screen.<br>
-It's realized in two ways: the original react way and the reduce way.
+It is realized in two ways: the original react way and the reduct way.
